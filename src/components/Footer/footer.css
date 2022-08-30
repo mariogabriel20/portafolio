@@ -1,0 +1,57 @@
+.footer{
+    /* background-color: #233250; */
+    background-color: #1f2633;
+    width: 50%;
+    margin: 0 auto;
+    min-height: 10vh;
+    box-shadow: -0.1rem -0.1rem 1rem 0.05rem #111111;
+    border-radius: 10rem;
+}
+
+.permalinks{
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.footer-socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+.footer-icon{
+    font-size: 1.4rem;
+}
+
+#footer-icon-react{
+    color: #61DBFB;
+    font-size: 1.4rem;
+}
+
+.footer h5{
+    font-size: 1rem;
+    color: dodgerblue;
+}
+
+/*====================== RESPONSIVE ======================*/
+
+@media (max-width: 900px) {
+    .footer{
+        width: 75%;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer{
+        width: 100%;
+        margin-top: 4rem;
+    }
+}

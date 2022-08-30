@@ -1,0 +1,57 @@
+.carousel{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 4rem;
+    box-shadow: 0rem 0rem 4rem 1rem #111111;
+}
+
+.project-buttons-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.6);;
+    border-radius: 10rem;
+}
+
+.d-block{
+    border-radius: 4rem;
+}
+
+/*====================== RESPONSIVE ======================*/
+
+@media (max-width: 1200px) {
+    .carousel{
+        width: 65%;
+    }
+}
+
+@media (max-width: 900px) {
+    .carousel{
+        width: 75%;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel{
+        width: 95%;
+    }
+
+    .carousel-caption{
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    .carousel-caption  h3{
+        font-size: 1.4rem;
+    }
+
+    .project-buttons-container a.btn{
+        max-width: 6rem;
+        max-height: 2.5rem;
+        font-size: 0.9rem;
+    }
+}

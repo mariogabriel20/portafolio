@@ -1,0 +1,114 @@
+.contact {
+    min-height: 100vh;
+}
+
+.contact-title {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 3rem;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact-option {
+    background-color: #1f2633;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: 500ms;
+    min-width: fit-content;
+}
+
+.contact-option:hover {
+    background: transparent;
+    border-color: aquamarine;
+}
+
+.contact-option-icon {
+    color: whitesmoke;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.contact-option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.contact-option h4 {
+    font-size: 1.4rem;
+}
+
+.contact-option h5 {
+    font-size: 1.2rem;
+}
+
+.container.contact-container {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 35% 55%;
+    gap: 10%;
+}
+
+
+/*====================== FORM ======================*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid #295dbd;
+    resize: none;
+    color: whitesmoke;
+    transition: 300ms;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(153, 153, 153);
+}
+
+/*====================== RESPONSIVE ======================*/
+
+@media (max-width: 1200px) {
+    .container.contact-container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 35% 55%;
+        gap: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .container.contact-container {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        margin: 0 auto;
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .container.contact-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        gap: 4rem;
+    }
+}

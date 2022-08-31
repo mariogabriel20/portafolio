@@ -18,7 +18,7 @@ const CustomCarousel = () => {
                     <h3>Portafolio</h3>
                     <p>Mi portafolio desarrollado con framework React</p>
                     <div className='project-buttons-container'>
-                        <a type="button" className="btn btn-primary" href="https://github.com/mariogabriel20/mariogabriel20.github.io">Ver código</a>
+                        <a type="button" className="btn btn-primary" href="https://github.com/mariogabriel20/portafolio">Ver código</a>
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>

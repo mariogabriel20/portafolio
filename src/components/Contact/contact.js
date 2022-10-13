@@ -54,13 +54,11 @@ const Contact = () => {
         <div className='contact-options'>
           <article className='contact-option'>
             <HiOutlineMail className='contact-option-icon'/>
-            {/* <h4>Email</h4> */}
             <h5>gabbriel.mario@gmail.com</h5>
             <a href='mailto:gabbriel.mario@gmail.com' target="_blank" rel='noreferrer'>Enviar un mensaje</a>
           </article>
           <article className='contact-option'>
             <FaWhatsapp className='contact-option-icon'/>
-            {/* <h4>WhatsApp</h4> */}
             <h5>+56 9 53672028</h5>
             <a href='https://api.whatsapp.com/send?phone+56953672028' target="_blank" rel='noreferrer'>Enviar un mensaje</a>
           </article>

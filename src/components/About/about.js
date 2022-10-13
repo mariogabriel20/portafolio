@@ -50,7 +50,6 @@ const About = () => {
           API/Webservices
         </li>
       </ul>
-      {/* <p className='container p-about'>Front-end y Backend</p> */}
     </section>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import p5game from '../../assets/p5game.png'
 import portfolio from '../../assets/portfolio.png'
+import easycoupons from '../../assets/easycoupons.png'
 import './carousel.css'
 
 const CustomCarousel = () => {
@@ -11,7 +12,7 @@ const CustomCarousel = () => {
                 <img
                     className="d-block w-100"
                     src={portfolio}
-                    alt="Second slide"
+                    alt="First slide"
                 />
 
                 <Carousel.Caption>
@@ -26,7 +27,7 @@ const CustomCarousel = () => {
                 <img
                     className="d-block w-100"
                     src={p5game}
-                    alt="First slide"
+                    alt="Second slide"
                 />
                 <Carousel.Caption>
                     <h3>Spaceship survivor</h3>
@@ -38,21 +39,20 @@ const CustomCarousel = () => {
 
                 </Carousel.Caption>
             </Carousel.Item>
-
-            {/* <Carousel.Item>
+            <Carousel.Item className='asd'>
                 <img
                     className="d-block w-100"
-                    src={p5game}
+                    src={easycoupons}
                     alt="Third slide"
                 />
-
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    <h3>Easy Coupons</h3>
+                    <p>App móvil desarrollada con Flutter para ver cupones de Udemy</p>
+                    <div className='project-buttons-container'>
+                        <a type="button" className="btn btn-primary" href="https://github.com/mariogabriel20/easy-coupons">Ver código</a>
+                    </div>
                 </Carousel.Caption>
-            </Carousel.Item> */}
+            </Carousel.Item>
         </Carousel>
     )
 }

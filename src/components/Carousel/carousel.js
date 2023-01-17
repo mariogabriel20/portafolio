@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import p5game from '../../assets/p5game.png'
 import portfolio from '../../assets/portfolio.png'
 import easycoupons from '../../assets/easycoupons.png'
+import moviesdata from '../../assets/moviesdata.png'
 import './carousel.css'
 
 const CustomCarousel = () => {
@@ -50,6 +51,20 @@ const CustomCarousel = () => {
                     <p>App móvil desarrollada con Flutter para ver cupones de Udemy</p>
                     <div className='project-buttons-container'>
                         <a type="button" className="btn btn-primary" href="https://github.com/mariogabriel20/easy-coupons">Ver código</a>
+                    </div>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item className='asd'>
+                <img
+                    className="d-block w-100"
+                    src={moviesdata}
+                    alt="Fourth slide"
+                />
+                <Carousel.Caption>
+                    <h3>Movies Data</h3>
+                    <p>App móvil desarrollada con Flutter para buscar información de películas y series</p>
+                    <div className='project-buttons-container'>
+                        <a type="button" className="btn btn-primary" href="https://github.com/mariogabriel20/movies-data">Ver código</a>
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
